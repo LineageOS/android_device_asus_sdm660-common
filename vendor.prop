@@ -155,6 +155,9 @@ debug.renderengine.backend=skiaglthreaded
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
+# Incremental FS
+ro.incremental.enable=1
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.radio.apm_sim_not_pwdn=1
