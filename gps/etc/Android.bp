@@ -49,14 +49,6 @@ prebuilt_etc {
     src: "sap.conf",
 }
 
-
-prebuilt_etc {
-
-    name: "xtwifi.conf",
-    vendor: true,
-    src: "xtwifi.conf",
-}
-
 prebuilt_etc {
     name: "gnss@2.0-base.policy",
     vendor: true,
