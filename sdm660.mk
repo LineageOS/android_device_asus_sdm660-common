@@ -7,6 +7,9 @@
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Enable project quotas and casefolding for emulated storage without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
 
