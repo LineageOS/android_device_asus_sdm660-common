@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d42266ad_effeed98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-03-23T23:24:26Z",
+      "side": 1,
+      "message": "Check if sdm660 display stack doesn\u0027t die without configstore first",
+      "revId": "d457b062584c94dff3cb4dd8a1a43ca2ee8382ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
