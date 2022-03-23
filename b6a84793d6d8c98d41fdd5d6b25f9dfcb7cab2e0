@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b2f68ed_d44104a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-03-23T23:20:30Z",
+      "side": 1,
+      "message": "You are executing\n mount_all /vendor/etc/fstab.qcom --late\n\nnowhere in your init scripts, also on sdm660 it\u0027s definitely not needed",
+      "revId": "b6a84793d6d8c98d41fdd5d6b25f9dfcb7cab2e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
