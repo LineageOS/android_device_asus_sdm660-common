@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "420bb2b5_c7092a78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2022-03-23T17:24:09Z",
+      "side": 1,
+      "message": "This does nothing in AOSP, only useful in CAF",
+      "revId": "9d7e3864a68b943e3df25c18d64ab26b3fea6733",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
