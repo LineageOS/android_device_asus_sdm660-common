@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52ab82b6_2b71cad4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-03-23T23:31:14Z",
+      "side": 1,
+      "message": "This is an ultralegacy commit, which you don\u0027t need on sdm660",
+      "revId": "ca554f30e4946618fec5707e61dc8b7b1b19b682",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
