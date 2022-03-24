@@ -16,6 +16,24 @@
       "message": "https://cs.android.com/search?q\u003d%22ro.min.fling_velocity%22\u0026ss\u003dandroid%2Fplatform%2Fsuperproject\nhttps://cs.android.com/search?q\u003d%22ro.max.fling_velocity%22\u0026ss\u003dandroid%2Fplatform%2Fsuperproject\n???",
       "revId": "46425a41954fb9b372d29ae8a21f77eef1bf682f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ba434ab_0e22755a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16023
+      },
+      "writtenOn": "2022-03-24T01:45:17Z",
+      "side": 1,
+      "message": "So it does not make sense to add these properties if LineageOS does not support them. This is something available in halogenOS 11 and older. It also used to be available on some OEM firmwares and old custom ROMs.",
+      "parentUuid": "18a39633_e6940ded",
+      "revId": "46425a41954fb9b372d29ae8a21f77eef1bf682f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
