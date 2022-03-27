@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66fba101_1d53e3a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-03-27T13:39:41Z",
+      "side": 1,
+      "message": "You don\u0027t have LMK driver in kernel, so it will still use lmkd",
+      "revId": "5f41bcc1a52a01067e6f8097ef479ecf51966e41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
