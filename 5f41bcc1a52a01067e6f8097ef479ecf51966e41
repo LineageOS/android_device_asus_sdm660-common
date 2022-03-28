@@ -16,6 +16,24 @@
       "message": "You don\u0027t have LMK driver in kernel, so it will still use lmkd",
       "revId": "5f41bcc1a52a01067e6f8097ef479ecf51966e41",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "997e46a4_9fb682d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2022-03-28T03:40:56Z",
+      "side": 1,
+      "message": "yes. we used memcg in 18.1, but will be back to in kernel lmk driver in 19.1.",
+      "parentUuid": "66fba101_1d53e3a6",
+      "revId": "5f41bcc1a52a01067e6f8097ef479ecf51966e41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
