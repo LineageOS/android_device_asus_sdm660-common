@@ -16,6 +16,24 @@
       "message": "why - this is for devices that commonly use a MASSIVE stock camera app like google camera or moto camera",
       "revId": "6cd4137336972fbe947911891f4618b23ff2ffcf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2816f890_b2519313",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2022-03-30T02:54:15Z",
+      "side": 1,
+      "message": "Users mostly depends on Gcams in both X00TD and X01BD",
+      "parentUuid": "adde255a_52572e82",
+      "revId": "6cd4137336972fbe947911891f4618b23ff2ffcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
