@@ -34,6 +34,23 @@
       "parentUuid": "df40cbe7_375483bc",
       "revId": "10749b8a99fe325185c409f96c6740b5035fd15d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b7565ed_75a303e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2022-04-19T06:01:36Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_asus_sdm660-common/+/329171",
+      "revId": "10749b8a99fe325185c409f96c6740b5035fd15d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
