@@ -16,6 +16,23 @@
       "message": "product - use product",
       "revId": "ace245bbe1f28ed6608885c0df8ee6f8bc3949e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78a55736_039b1b9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2022-04-19T06:01:05Z",
+      "side": 1,
+      "message": "used product here. https://review.lineageos.org/c/LineageOS/android_device_asus_sdm660-common/+/327282",
+      "revId": "ace245bbe1f28ed6608885c0df8ee6f8bc3949e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
