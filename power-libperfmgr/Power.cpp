@@ -31,7 +31,7 @@
 #include "PowerHintSession.h"
 #include "PowerSessionManager.h"
 
-#define TAP_TO_WAKE_NODE "/proc/tpd_gesture"
+#define TAP_TO_WAKE_NODE "/proc/touchpanel/double_tap_enable"
 
 namespace aidl {
 namespace google {

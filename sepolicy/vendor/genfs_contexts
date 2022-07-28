@@ -4,7 +4,7 @@ genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,came
 genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@2/video4linux/video5/wakeup u:object_r:sysfs_wakeup:s0
 
 # Double tap to wake
-genfscon proc /tpd_gesture               u:object_r:proc_tpd_gesture:s0
+genfscon proc /touchpanel               u:object_r:proc_touchpanel:s0
 
 # Graphics
 genfscon sysfs /devices/virtual/graphics/fb0/idle_state         u:object_r:sysfs_graphics:s0
