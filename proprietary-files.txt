@@ -265,10 +265,11 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|aad3ef11a2fa41bb5
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|05931b5d088bd7000b0b002ee650b0953e272cd7
 vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|f6e23f902b7e15232b20af55161a24da93ffe25f
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|335cc2f4e263b4c20b2b7ad5cd6c39c68cdea7ba
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|ea711a5b351b2d70f42a923ed061f3a827982b94
 
 # GPS - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/bin/garden_app|33936daa11e37a2e9d7cc8a6029c043bdf2a8bd5
@@ -368,17 +369,20 @@ vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 vendor/lib/hw/vulkan.adreno.so|139868cf11006199fffc109b7a207e4e7f4cbd18
 vendor/lib64/hw/vulkan.adreno.so|9215100009b574f71dc75272f22a499302ea121d
 
+# Keymaster - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|002c638011b1936fecaa896874d3361ec68eaa46
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|a3c2f2a5006a85015b6081136e1b52d22ef24f10
+vendor/lib/libkeymasterdeviceutils.so|a0de8c0055d2cfac9202d8eef88854c1e9795ff4
+vendor/lib/libkeymasterprovision.so|c16328226bb07371a4928906bd70888bbee27895
+vendor/lib/libkeymasterutils.so|a2f7e894af47c33c8bf700b5a1e0a676196affde
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|ce2b3776fb2e69f893cab0c2fda751b493b1a7be
+vendor/lib64/libkeymasterdeviceutils.so|6fd0b0e1b30c4e6c5272794896306596880c657b
+vendor/lib64/libkeymasterprovision.so|d6c95d3543c707df133d50764f647e5f07adb82b
+vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
+vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
+
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
 
 # Listen - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
 vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
@@ -512,7 +516,6 @@ vendor/lib64/libnlnetmgr.so|e99f1fe776f12db4285835fb2a7ac4c82aafc1b3
 vendor/lib64/liboemaids_vendor.so|bc25c678a4981d6f3d16f292247ec3f885be2015
 vendor/lib64/libpdmapper.so|eb1970aa203ebc5b99a0364653df6019e429a7b7
 vendor/lib64/libpdnotifier.so|665da78ebcc71682a19e4635209e6718741b0512
-vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 vendor/lib64/libqcmaputils.so|42729b851912ac2cd899b3ddc2e52e1156ea0426
 vendor/lib64/libqcrilFramework.so|dc62bd4f3685c420d43f4f5f4141d5908212df86
 vendor/lib64/libqcrildatactl.so|612f31db78dd262a349c093c1a5071e4fd89450d
