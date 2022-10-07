@@ -467,7 +467,6 @@ system_ext/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|8b9a4289800345d39cd921a
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|e35b9b181499317ed7dbe7ef8816022582a67149
 vendor/bin/adpl|2a925961f53b8125971fb175cd566479aff1fff8
 vendor/bin/hw/qcrild|a9a66893229d09f53a8eb8a5a6b0599393e593d9
-vendor/bin/ATFWD-daemon|40713588ba5836763b95615cee49121740e95e62
 vendor/bin/netmgrd|b117b032b7d0cc842c214a0ca318b9edbf90059b
 vendor/bin/port-bridge|bd5dd78c59db006c8bc48d39002ce2fd8a1b5955
 vendor/bin/qrtr-cfg|2d01b23a51d491f8b75d94f1a933c549fd8aaaea
@@ -515,7 +514,6 @@ vendor/lib64/qtibus.so|d43cb405f92a21407784d69b96787fdbf0d07610
 vendor/lib64/qtimutex.so|dd8fcf540abf2b33daa4fcde3db6e15539490ae5
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|7109345c8df1650737f878b38d966a6b7d3c5a82
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|744fe6b91d7ebac483244c09510b91738b601964
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|1e70a4d138421f1dc9006df4da35c6b27fbc373a
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|65a5d2f1140790e96d633f399e4c41145723934b
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so|9f759b4d45dea0660c5e7d0647a5279d979d2ed9
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so|349ba917d300f0d27375a665d85b59e3dae3acbd
