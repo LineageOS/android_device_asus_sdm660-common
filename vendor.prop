@@ -153,6 +153,7 @@ debug.cpurend.vsync=false
 debug.renderengine.backend=skiaglthreaded
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
+ro.hwui.render_ahead=20
 
 # HEH filename encryption is being dropped
 ro.crypto.volume.filenames_mode=aes-256-cts
