@@ -322,7 +322,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power-service.asus_sdm660-libperfmgr
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
