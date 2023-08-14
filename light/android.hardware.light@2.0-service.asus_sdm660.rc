@@ -1,15 +1,4 @@
 on init
-    # Notification LED
-    chown system system /sys/class/leds/red/breath
-    chown system system /sys/class/leds/red/brightness
-    chown system system /sys/class/leds/green/breath
-    chown system system /sys/class/leds/green/brightness
-
-    chmod 0664 /sys/class/leds/red/breath
-    chmod 0644 /sys/class/leds/red/brightness
-    chmod 0664 /sys/class/leds/green/breath
-    chmod 0644 /sys/class/leds/green/brightness
-
     # LCD backlight
     chown system system /sys/class/leds/lcd-backlight/brightness
 
