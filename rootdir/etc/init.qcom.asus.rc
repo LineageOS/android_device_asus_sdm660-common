@@ -34,8 +34,6 @@ on early-boot
 on boot
     chown system system /sys/class/power_supply/battery/input_suspend
     chmod 0660 /sys/class/power_supply/battery/input_suspend
-    chown system system /sys/class/power_supply/battery/device/smartchg_stop_charging
-    chmod 0660 /sys/class/power_supply/battery/device/smartchg_stop_charging
 
 on boot
     # Tap to wake node
