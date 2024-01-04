@@ -97,9 +97,6 @@ on boot
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
-on charger
-    start vendor.power_off_alarm
-
 on enable-low-power
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
@@ -171,13 +168,6 @@ on property:sys.boot_completed=1
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
 
-service charger /system/bin/charger
-    class charger
-    user system
-    group system graphics input
-    capabilities SYS_BOOT
-    seclabel u:r:charger:s0
-
 on property:init.svc.vendor.charger=running
     # Keep one LITTLE and one BIG
     write /sys/devices/system/cpu/cpu1/online 0
@@ -192,6 +182,7 @@ on property:init.svc.vendor.charger=running
     setprop vendor.usb.controller a800000.dwc3
     start qcom-post-boot
     start vendor.hvdcp_opti
+    start vendor.power_off_alarm
 
 service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /vendor/etc/msm_irqbalance.conf
     class core
