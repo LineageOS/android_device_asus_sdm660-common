@@ -351,6 +351,7 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2 \
