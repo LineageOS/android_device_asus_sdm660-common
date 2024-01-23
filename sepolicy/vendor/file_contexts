@@ -13,6 +13,9 @@
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.asus_sdm660                u:object_r:hal_light_default_exec:s0
 
+# Metadata
+/dev/block/platform/soc/c0c4000.sdhci/by-name/asusfw                          u:object_r:metadata_block_device:s0
+
 # Persist
 /persist(/.*)?                                                                u:object_r:mnt_vendor_file:s0
 
