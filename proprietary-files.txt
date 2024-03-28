@@ -288,10 +288,10 @@ vendor/lib64/vendor.qti.gnss@4.0.so|e38ae43982dc62bf48193a6c3eb2ae385adb37aa
 
 # Graphics - from Honeywell hon660-user-12-94.00.03-0037-release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|3e1c3838ef671984e39b834a366d8ae2f8bb232e
-vendor/lib/egl/libEGL_adreno.so|1e507b9eee9f7c7e320ad89a1a62ca1104ed887f
+vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|1e507b9eee9f7c7e320ad89a1a62ca1104ed887f
 vendor/lib/egl/libGLESv1_CM_adreno.so|c69609fa91c8150224a8665b8bec777629c5e93f
-vendor/lib/egl/libGLESv2_adreno.so|9b88852f7cd879f1dc713e3bd9b1f35941f1f6e5
-vendor/lib/egl/libq3dtools_adreno.so|b25bd28f3582256a2c7c4dfae2a1258fb7b8cb40
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|9b88852f7cd879f1dc713e3bd9b1f35941f1f6e5
+vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|b25bd28f3582256a2c7c4dfae2a1258fb7b8cb40
 vendor/lib/egl/libq3dtools_esx.so|1629bfb052e97c88c6a59d1888b16f4466d58b75
 vendor/lib/libC2D2.so|54eb3a8f15ed9cc7d1c815dc4125612052bbb4de
 vendor/lib/libCB.so|999a06d3a377ec9a56fc0686a7a4929533c5a7ce
@@ -306,10 +306,10 @@ vendor/lib/libllvm-qcom.so|0b1ab96746f8d4186f775ad5fdefe18f48dcd690
 vendor/lib/libmm-hdcpmgr.so|0e6c6b410f5f14b5cb1ae9bc7e4aff7354a6e57b
 vendor/lib/librs_adreno.so|82b6fbdac2b0260b5628bdd51f2260473c9a4f86
 vendor/lib64/egl/eglSubDriverAndroid.so|485844f06b144ec82aa6418a3c273c22d832bc6b
-vendor/lib64/egl/libEGL_adreno.so|58b069ece70a54f357f355a1fe61d87d64ed5796
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|58b069ece70a54f357f355a1fe61d87d64ed5796
 vendor/lib64/egl/libGLESv1_CM_adreno.so|7fbdf3f0ae57479be477d37c55078087f35405cb
-vendor/lib64/egl/libGLESv2_adreno.so|99d14ff10b115c60786d7df1b52b14dc16081ccd
-vendor/lib64/egl/libq3dtools_adreno.so|827cb4c49585cc266300165763ad24c4e7798f17
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|99d14ff10b115c60786d7df1b52b14dc16081ccd
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|827cb4c49585cc266300165763ad24c4e7798f17
 vendor/lib64/egl/libq3dtools_esx.so|16c2adfce7ca146f9011b4cfcc432ebf5c31e09c
 vendor/lib64/libC2D2.so|851d2be28766ba0a3324c6d8211ea04aa4be319f
 vendor/lib64/libCB.so|53c5cdc9ae00348379f980fa20c9db0456a3d87c
