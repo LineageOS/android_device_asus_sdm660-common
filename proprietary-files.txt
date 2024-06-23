@@ -573,8 +573,8 @@ system_ext/lib64/lib-imsvideocodec.so|f507809ee93fcad1c8163cf6bcc7eda9cd151dab
 system_ext/lib64/lib-imsvt.so|7cf59aedc4bc22b1602ce46c267d1a5bc5d787b4
 system_ext/lib64/lib-imsvtextutils.so|6b75bdcd04cfee1ef2f4f86060621388f6681521
 system_ext/lib64/lib-imsvtutils.so|57f35b326d9dcfb59c66ebe1df7fabc023d5636b
-system_ext/lib64/libimscamera_jni.so|7f0bf4e9e6223c7c5f0f6670965b389b5384dc12
-system_ext/lib64/libimsmedia_jni.so|5e56953a65c1e8581f1ea1753cdb3b79c1cd2314
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|7f0bf4e9e6223c7c5f0f6670965b389b5384dc12
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|5e56953a65c1e8581f1ea1753cdb3b79c1cd2314
 system_ext/lib64/vendor.qti.ims.callcapability@1.0.so|6cc65a1ef3380b58d23e81f0afe518293163bf39
 system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|586b30cdd0ea2f5e697288ed693a0836b1bb921c
 system_ext/lib64/vendor.qti.ims.factory@1.0.so|c6bbe3b22d43c27c4b0d69fa7521e49d0db7153d
