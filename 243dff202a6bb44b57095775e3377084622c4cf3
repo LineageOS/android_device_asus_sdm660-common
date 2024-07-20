@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b52bd03a_9ca975d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-07-20T19:02:40Z",
+      "side": 1,
+      "message": "why not just use the common power-libperfmgr and sepolicy?",
+      "revId": "243dff202a6bb44b57095775e3377084622c4cf3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
