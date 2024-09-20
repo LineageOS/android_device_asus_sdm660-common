@@ -2,6 +2,10 @@
 # system.prop for sdm660
 #
 
+# Audio
+audio.sys.noisy.broadcast.delay=600
+audio.sys.offload.pstimeout.secs=3
+
 # Bluetooth
 bt.max.hfpclient.connections=1
 
@@ -19,12 +23,21 @@ persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
 # Display
+persist.hwc.mdpcomp.enable=true
 vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
 
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
+# FM
+vendor.hw.fm.init=0
+
+# GMS
+ro.com.google.clientidbase.ms=android-asus-tpin
+ro.com.google.rlzbrandcode=ASUP
+ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
 # GPS
 persist.vendor.overlay.izat.optin=rro
@@ -58,6 +71,9 @@ vendor.perf.gestureflingboost.enable=true
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
+
+# Radio - IMS
+persist.dbg.ims_volte_enable=1
 
 # RIL
 DEVICE_PROVISIONED=1
