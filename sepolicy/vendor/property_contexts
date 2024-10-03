@@ -8,3 +8,7 @@ persist.vendor.runin.fp                       u:object_r:vendor_fingerprint_prop
 
 # NFC
 ro.hq.support.nfc                             u:object_r:nfc_sensors_prop:s0
+
+# Sensors
+sensors.light.loopback                        u:object_r:asus_sensors_prop:s0
+sensors.proxymity.loopback                    u:object_r:asus_sensors_prop:s0
