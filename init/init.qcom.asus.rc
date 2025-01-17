@@ -46,3 +46,9 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
 
 on property:ro.hq.support.nfc=1
     enable vendor.nfc_hal_service
+
+on property:sys.boot_completed=1
+    write /sys/class/leds/green/brightness 1
+    write /sys/class/leds/green/brightness 0
+    write /sys/class/leds/red/brightness 1
+    write /sys/class/leds/red/brightness 0
