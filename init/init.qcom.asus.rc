@@ -32,6 +32,9 @@ on early-boot
      chown system system /dev/input/event5  # stk3xXx-proximity
 
 on boot
+    chown system system /proc/touchpanel/double_tap_enable
+    chmod 0660 /proc/touchpanel/double_tap_enable
+
     chown system system /sys/class/power_supply/battery/input_suspend
     chmod 0660 /sys/class/power_supply/battery/input_suspend
 
