@@ -346,7 +346,7 @@ PRODUCT_BOOT_JARS += \
 
 # Touch HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.asus_sdm660
+    vendor.lineage.touch-service.asus_sdm660
 
 # USB
 PRODUCT_PACKAGES += \
