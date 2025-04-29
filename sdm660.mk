@@ -221,6 +221,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+$(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
+
 # LiveDisplay native
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
