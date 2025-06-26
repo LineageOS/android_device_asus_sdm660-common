@@ -14,24 +14,27 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import hashlib
-import common
 import re
 
+
 def FullOTA_Assertions(info):
-  AddModemAssertion(info)
-  return
+    AddModemAssertion(info)
+    return
+
 
 def IncrementalOTA_Assertions(info):
-  AddModemAssertion(info)
-  return
+    AddModemAssertion(info)
+    return
+
 
 def AddModemAssertion(info):
-  android_info = info.input_zip.read("OTA/android-info.txt")
-  m = re.search(r'require\s+version-modem\s*=\s*(.+)', android_info.decode('utf-8'))
-  if m:
-    version = m.group(1).rstrip()
-    if len(version) and '*' not in version:
-      cmd = 'assert(asus.verify_modem("' + version + '") == "1");'
-      info.script.AppendExtra(cmd)
-  return
+    android_info = info.input_zip.read('OTA/android-info.txt')
+    m = re.search(
+        r'require\s+version-modem\s*=\s*(.+)', android_info.decode('utf-8')
+    )
+    if m:
+        version = m.group(1).rstrip()
+        if len(version) and '*' not in version:
+            cmd = 'assert(asus.verify_modem("' + version + '") == "1");'
+            info.script.AppendExtra(cmd)
+    return
