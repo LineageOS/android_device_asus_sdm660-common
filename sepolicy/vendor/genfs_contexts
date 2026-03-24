@@ -1,8 +1,3 @@
-# Camera
-genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@0/video4linux/video3/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@1/video4linux/video4/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@2/video4linux/video5/wakeup u:object_r:sysfs_wakeup:s0
-
 # Double tap to wake
 genfscon proc /touchpanel               u:object_r:proc_touchpanel:s0
 
@@ -13,7 +8,6 @@ genfscon sysfs /devices/virtual/graphics/fb0/idle_state         u:object_r:sysfs
 genfscon sysfs /devices/platform/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:rradc@4500/iio:device1/name                 u:object_r:sysfs_iio_devices:s0
 
 # Kgsl
-genfscon sysfs /devices/platform/soc/soc:qcom,kgsl-hyp/subsys3/name               u:object_r:sysfs_ssr:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,kgsl-hyp/subsys3/restart_level            u:object_r:sysfs_ssr_toggle:s0
 
 # LED
