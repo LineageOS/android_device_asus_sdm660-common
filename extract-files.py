@@ -34,17 +34,7 @@ lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
         'com.qualcomm.qti.dpm.api@1.0',
-        'vendor.qti.hardware.data.cne.internal.api@1.0',
-        'vendor.qti.hardware.data.cne.internal.constants@1.0',
-        'vendor.qti.hardware.data.cne.internal.server@1.0',
-        'vendor.qti.hardware.data.connection@1.0',
-        'vendor.qti.hardware.data.connection@1.1',
-        'vendor.qti.hardware.data.dynamicdds@1.0',
-        'vendor.qti.hardware.data.iwlan@1.0',
-        'vendor.qti.hardware.data.latency@1.0',
-        'vendor.qti.hardware.data.qmi@1.0',
         'vendor.qti.hardware.fm@1.0',
-        'vendor.qti.hardware.mwqemadapter@1.0',
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
 }
