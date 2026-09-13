@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "990c1cc5_85873186",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-13T08:55:29Z",
+      "side": 1,
+      "message": "do https://review.lineageos.org/c/LineageOS/android_device_sony_nile-common/+/499986 instead of essentially stubbing the whole feature.",
+      "revId": "0526ede44c137d9d74c09800667ad25010350ee5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
